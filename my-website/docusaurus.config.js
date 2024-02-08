@@ -43,6 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          // path: './docs/',
+          routeBasePath: '/docs',
           editUrl:
             'https://github.com/Rodrigo-07/DocusaurusRodrigoSales',
         },
@@ -73,15 +75,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Informações Pessoais',
-          },
-          {to: '/blog', label: 'Projetos', position: 'left'},
-          {to: '/blog', label: 'Experiências', position: 'left'},
-          {to: '/blog', label: 'Certificações', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Informações Pessoais',
+          // },
+          {to: '/docs/info-pessoal/info', label: 'Informações Pessoais', position: 'left'},
+          {to: '/docs/projetos/', label: 'Projetos', position: 'left'},
+          {to: '/docs/experiencias/', label: 'Experiências', position: 'left'},
+          {to: '/docs/certificacoes/', label: 'Certificações', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -97,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/info-pessoal',
               },
             ],
           },
