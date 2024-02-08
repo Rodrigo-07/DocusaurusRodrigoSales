@@ -46,14 +46,13 @@ const config = {
           editUrl:
             'https://github.com/Rodrigo-07/DocusaurusRodrigoSales',
         },
-        blog: false,
-        // {
-        //   // showReadingTime: true,
-        //   // // Please change this to your repo.
-        //   // // Remove this to remove the "edit this page" links.
-        //   // editUrl:
-        //   //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -77,11 +76,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Informações Pessoais',
+            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Projetos', position: 'left'},
-          {to: '/blog', label: 'Experiências', position: 'left'},
-          {to: '/blog', label: 'Certificações', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
