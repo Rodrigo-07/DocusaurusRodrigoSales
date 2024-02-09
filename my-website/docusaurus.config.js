@@ -83,7 +83,7 @@ const config = {
           // },
           {to: '/docs/info-pessoal/info', label: 'Informações Pessoais', position: 'left'},
           {to: '/docs/projetos/', label: 'Projetos', position: 'left'},
-          {to: '/docs/experiencias/', label: 'Experiências', position: 'left'},
+          {to: '/docs/experiencias/introducao', label: 'Experiências', position: 'left'},
           {to: '/docs/certificacoes/', label: 'Certificações', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -95,15 +95,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/info-pessoal',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/info-pessoal',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
@@ -121,19 +121,19 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     // {
+          //     //   label: 'BlogASDSADAS',
+          //     //   to: '/blog',
+          //     // },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
