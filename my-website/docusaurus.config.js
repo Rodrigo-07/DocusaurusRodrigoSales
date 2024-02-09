@@ -22,7 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Inteli', // Usually your GitHub org/user name.
   projectName: 'DocusaurusRodrigoSales', // Usually your repo name.
-
+  deploymentBranch: 'main', // The branch your website is deployed from.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
