@@ -43,8 +43,8 @@ jobs:
 
     - name: Install and Build
       run: |
-        cd sitezada
-        npm install
+        cd my-website
+        npm ci
         npm run build
         mv build ../build
         
