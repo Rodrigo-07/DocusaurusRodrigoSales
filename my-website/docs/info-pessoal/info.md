@@ -1,1 +1,3 @@
 # Eu sou o Rodrigo
+
+Um jovem estudante que adora aprender coisas novas. Sou recém-formada no ensino médio pelo Colégio São Joaquim, onde tive 100% de bolsa. Sempre tive uma inquietação muito grande dentro de mim para tentar entender as coisas ao meu redor. Tenho grande interesse em temas relacionados a mudanças climáticas, sustentabilidade, STEM, empreendedorismo e educação. Por esse motivo, tenho me engajado cada vez mais nas oportunidades e aprendido mais sobre essas áreas. Entre os meus objetivos está contribuir para a solução dos problemas que a humanidade enfrenta hoje, especialmente relacionados às mudanças climáticas. Por isso, tenho buscado oportunidades para me desafiar, aplicar meus conhecimentos e me desenvolver.
