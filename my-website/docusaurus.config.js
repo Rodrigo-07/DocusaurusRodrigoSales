@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Rodrigo Website',
   tagline: 'Portifolio Pessoal do Rodrigo Sales',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cara.png',
 
   // Set the production url of your site here
   url: 'https://Rodrigo-07.github.com',
@@ -82,7 +82,6 @@ const config = {
           //   label: 'Informações Pessoais',
           // },
           {to: '/docs/info-pessoal/info', label: 'Informações Pessoais', position: 'left'},
-          {to: '/docs/projetos/', label: 'Projetos', position: 'left'},
           {to: '/docs/experiencias/introducao', label: 'Experiências', position: 'left'},
           {to: '/docs/certificacoes/', label: 'Certificações', position: 'left'},
           {
